@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+
+
 :root{
     --primario :   rgba(7, 190, 191, 8);
     --secundario : rgba(58,58,58,0.9);
@@ -5,23 +15,6 @@
     --verde : rgba(5,103,11,1);
     --negro : rgba(32, 32, 32, 0.9);
     --fondo :rgb(177, 177, 177);
-}
-
-@font-face{
-    font-family: 'dagger';
-    src: url(../fonts/dagger_dancer/daggerdancer.ttf);
-}
-@font-face{
-    font-family: 'akira';
-    src: url(../fonts/akira_expanded/Akira\ Expanded\ Demo.otf);
-}
-@font-face{
-    font-family: 'geo';
-    src: url(../fonts/geo_sans_light/GeosansLight-Oblique.ttf);
-}
-@font-face{
-    font-family: 'asia';
-    src: url(../fonts/kashima_brush/Kashima\ Demo.otf);
 }
 
 
@@ -75,7 +68,7 @@ html {
     padding-top: 1vw;
     margin: 0;
     font-size: 4vw;
-    font-family: 'dagger';
+    font-family: 'Patua One', cursive;
     color: var(--rojo);
     
 }
@@ -93,7 +86,7 @@ html {
     padding-top: 5vw;
     margin: 0;
     font-size: 7vw;
-    font-family: 'dagger';
+    font-family: 'Patua One', cursive;
     color: var(--rojo);
     
 }
@@ -110,7 +103,7 @@ html {
 .BarraNav{
     display: flex;
     justify-content: flex-start;
-    font-family: 'dagger';
+    font-family: 'Patua One', cursive;
     position: absolute;
     height: 3vw;
     transition: 0.5s;
@@ -255,7 +248,7 @@ html {
 }
 .atrevete p {
     color: var(--rojo);
-    font-family: 'akira';
+    font-family: 'Patua One', cursive;
     font-size: 4vh;
 }
 .botonatrevete{
@@ -280,10 +273,10 @@ html {
  
 }
 .atrevetetxt2 p{
-    font-size: 3vh;
+    font-size: 2vh;
     width: 20%;
     margin: 5% 5%;
-    font-family: 'asia';
+    font-family: 'Patua One', cursive;
     color: var(--negro);
     position: relative;
     top: -50px;
@@ -294,7 +287,7 @@ html {
     z-index: 2;
     transition: 0.5s;
     border-radius: 50%;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/17/Yin_yang.svg);
+    background-image: url(../img/logo.jpg);
     background-size: cover;
 }
 
@@ -398,7 +391,7 @@ html {
     height: 50vh;
     width: 80vh;
     font-size: 3vh;
-    font-family: 'dagger';
+    font-family: ' Patua One', sans-serif;
   }
   .atrevetedescripcion2 .imgpepe{
     height: 50vh;
@@ -472,7 +465,7 @@ html {
     cursor: pointer;
     color: var(--rojo);
     text-decoration: none;
-    font-family: 'dagger';
+    font-family: 'Patua One', sans-serif;
     opacity: 0.9;
    
 }
@@ -600,7 +593,7 @@ html {
     margin: 0px 8% 0 5.5%;
     background-color: var(--secundario);
     padding: 10px;
-    font-family: 'geo';
+    font-family: 'exo 2', cursive;
     padding: 8vh 10%;
     position: relative;
     top: -1px;
@@ -612,7 +605,7 @@ html {
     text-align: center;
     padding: 0;
     margin: 10px;
-    font-family: 'akira';
+    font-family: 'Patua One', cursive;
 }
 .infoMasterContenedor2{
     display: flex;
@@ -644,7 +637,7 @@ html {
 .infoMasterContenedorRangos{
     display: flex;
     margin: 2rem 0 0 1rem;
-    font-family: 'akira';
+    font-family: 'Patua One', cursive;
     justify-content: space-between;
 }
 
@@ -668,7 +661,7 @@ html {
 }
 .cinturon p{
     font-size: 2vw;
-    font-family: 'geo';
+    font-family: 'Patua One', cursive;
 }
 
 
@@ -703,7 +696,7 @@ html {
 }
 .redesMasterInfo samp{
     font-size: 2vw;
-    font-family: 'dagger';
+    font-family: 'Patua One', cursive;
 }
 .datosAcademia{
     padding-left: 10px;
@@ -854,7 +847,7 @@ html {
 .preguntas{
     text-align: center;
     margin: 3rem auto;
-    font-family: 'geo';
+    font-family: 'Patua One', cursive;
 }
 .preguntas ul{
     list-style: none;
@@ -874,7 +867,7 @@ html {
     transition: 0.5s;
     border-bottom: solid 5px rgb(59, 0, 0);
     height: 3vw;
-    font-family: 'akira';
+    font-family: 'Patua One', cursive;
     font-size: 1vw;
     text-align: center;
     clip-path: polygon(5% 1%, 95% 0, 100% 50%, 95% 100%, 5% 100%, 0% 50%);
@@ -889,7 +882,7 @@ html {
 }
 .preguntas .btnpregunta i{
     font-size: 3rem;
-    font-family: 'geo';
+    font-family: 'Patua One', cursive;
 }
 
 .respuesta{
@@ -899,7 +892,7 @@ html {
     margin: 1vh 10% ;
     padding: 3vh;
     font-size: 2vh;
-    font-family: 'akira';
+    font-family: 'Patua One', cursive;
     width: 80%;
 }
 
@@ -987,7 +980,7 @@ html {
     justify-content: center;
     padding: 10px;
     color: var(--rojo);
-    font-family: "dagger";
+    font-family: 'Patua One', cursive;
     font-size: 3vh;
 }
 .drack{
@@ -1028,7 +1021,7 @@ html {
     padding: 10px;
     font-size: 3vw;
     color: var(--rojo);
-    font-family: 'dagger';
+    font-family: 'Patua One', cursive;
 }
 .titi img{
     width: 100%;
@@ -1063,7 +1056,7 @@ html {
     margin: 0 5px 0 0;
     opacity: 0;
     font-size: 2.5vh;
-    font-family: 'dagger';
+    font-family: 'Patua One', cursive;
 }
 .puntomapa:hover{
     transition: 0.5s;
@@ -1121,7 +1114,7 @@ html {
     padding: 10px;
     font-size: 3vw;
     color: var(--rojo);
-    font-family: 'dagger';
+    font-family: 'Patua One', cursive;
 }
 .contenedorAcademias2{
     display: flex;
@@ -1140,20 +1133,20 @@ html {
 }
 .academia h2 {
     text-align: center;
-    font-family: 'akira';
+    font-family: 'Patua One', cursive;
   
 }
 .contenedorDatosAcademia {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'geo';
+    font-family: 'Patua One', cursive;
     font-size: 1vw;
 }
 .datosMaestro {
     flex-basis: 30%;
     text-align: center;
-    font-family: 'akira';
+    font-family: 'Patua One', cursive;
     width: 90%;
 }
 .datosMaestro div {
@@ -1322,7 +1315,7 @@ html {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        font-family: 'geo';
+        font-family: 'Patua One', cursive;
         font-size: 3vw;
         flex-wrap: wrap;
         flex-direction: column;
@@ -1489,7 +1482,7 @@ background-color: var(--negro);
 }
 .footerText p {
    font-size: 3vh;
-   font-family: "dagger";
+   font-family: 'Patua One', cursive;
    padding: 10px;
 }
 .footerText samp{
@@ -1536,10 +1529,6 @@ width: 10vh;
 
 
 
-@font-face {
-    font-family: 'abrahna-kun';
-    src: url(../fonts/zenzai_itacha/Zenzai\ Itacha.ttf);
-}
 
 
 .by{
@@ -1552,7 +1541,7 @@ width: 10vh;
 }
 .by p{
     height: 5vh;
-    font-family: "dagger";
+    font-family: 'Great Vibes', cursive;
     width: 5vh;
     caret-color: rde;
     background-color: var(--fondo);
@@ -1566,13 +1555,13 @@ width: 10vh;
 }
 .by a{
     display: flex;
-    font-family: 'abrahna-kun';
-    align-items: flex-end;
+    font-family: 'Great Vibes', cursive;
+    align-items: center;
     justify-content: center;
     background-color: var(--primario);
     height: 5vh;
     width: 20vh;
-    font-size: 4vh;
+    font-size: 3vh;
     color: var(--negro);
     text-decoration: none;
 
